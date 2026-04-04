@@ -21,8 +21,8 @@ h1 {
     width: 200px;
     height: 200px;
     background: #ff8fab;
-    margin 40px auto;
-    display: none
+    margin: 40px auto;
+    display: none;
     cursor: pointer;
     border-radius: 20px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
