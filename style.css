@@ -49,3 +49,17 @@ button:hover {
     background: #ff5d8f;
     transform: translateY(-2px);
 }
+
+body.cuteness {
+    background: linear-gradient(135deg, #ffd6e0, #d0f4ff);
+    color: #333;
+}
+
+body.dark {
+    background: #111;
+    color: white;
+}
+
+.dark #box {
+    box-shadow: 0 0 20px rgba(255,255,255,0.2);
+}
