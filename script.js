@@ -18,7 +18,7 @@ function resetGame() {
 
     box.style.display = "none";
     result.textContent = "";
-    message.textContent = "click start to begin!!!"
+    message.textContent = "click start to begin!!! (you will play 5 rounds, click the square as soon as it turns green, your average score will be given at the end!"
 }
 
 function startRound(){
@@ -43,7 +43,7 @@ function endGame() {
 
   const best = Math.min(...reactionTimes);
 
-  message.textContent = "game over :(";
+  message.textContent = "game over";
   result.innerHTML = `
     <p>Average: ${Math.round(avg)} ms</p>
     <p>Best: ${best} ms</p>
