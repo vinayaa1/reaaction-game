@@ -118,14 +118,23 @@ box.onclick = () => {
 
 const themeBtn = document.getElementById("themeToggle");
 
-themeBtn.onclick = () => {
-  if (theme === "cuteness") {
-    theme = "dark";
-    document.body.className = "dark";
-  } else {
-    theme = "cuteness";
-    document.body.className = "cuteness";
-  }
-};
+document.addEventListener("DOMContentLoaded", () => {
+
+  const themeBtn = document.getElementById("themeToggle");
+
+  let theme = "cute";
+  document.body.className = "cute";
+
+  themeBtn.onclick = () => {
+    if (theme === "cute") {
+      theme = "dark";
+      document.body.className = "dark";
+    } else {
+      theme = "cute";
+      document.body.className = "cute";
+    }
+  };
+
+});
 
 let leaderboard = JSON.parse(localStorage.getItem("leaderboard")) || [];
