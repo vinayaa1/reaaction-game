@@ -15,4 +15,4 @@
 ### HTML
 ### CSS
 ### JavaScript
-## Link to deployed game: 
+## Link to deployed game: https://vinayaa1.github.io/reaaction-game/
