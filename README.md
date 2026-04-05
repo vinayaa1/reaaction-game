@@ -9,7 +9,7 @@
 ### - reaction time
 ### - multiple rounds gameplay system
 ### - theme toggle
-### - sound effects
+### - sound effects (in progress)
 ### - average score calculations
 ## languages:
 ### HTML
